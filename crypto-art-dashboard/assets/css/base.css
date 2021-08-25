@@ -1,0 +1,20 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #24252d;
+    --sub-color: #1b1a21;
+    --sub-color-2: #115cab;
+    --category-item-color: #8b8c94;
+    --category-item-width: 140px;
+    --category-icon-size: 30px;
+}
+
+.display-flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
