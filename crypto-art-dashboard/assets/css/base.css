@@ -8,7 +8,8 @@
     --primary-color: #24252d;
     --sub-color: #1b1a21;
     --sub-color-2: #115cab;
-    --category-item-color: #8b8c94;
+    --sub-text-color: #8b8c94;
+    --text-white-color: #fff;
     --category-item-width: 140px;
     --category-icon-size: 30px;
 }
@@ -17,4 +18,19 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.btn {
+    padding: 12px 24px;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--primary-color);
+    color: var(--sub-text-color);
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn--primary {
+    background-color: var(--sub-color);
+    color: var(--text-white-color);
 }

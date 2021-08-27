@@ -70,7 +70,7 @@ body {
 
 .nav__category-icon {
     font-size: 14px;
-    color: var(--category-item-color);
+    color: var(--sub-text-color);
     border-radius: 50%;
     width: var(--category-icon-size);
     height: var(--category-icon-size);
@@ -93,7 +93,7 @@ body {
 }
 
 .nav__category-content {
-    color: var(--category-item-color);
+    color: var(--sub-text-color);
     width: calc(var(--category-item-width) - var(--category-icon-size) - 20px);
     padding-left: 10px;
 }
@@ -126,6 +126,25 @@ body {
     color: #fff;
     height: 36px;
     font-size: 16px;
+}
+
+/* home filter */
+.home-filter {
+    margin-top: 10px;
+}
+
+.home-filter__link {
+    list-style: none;
+    text-decoration: none;
+    color: var(--text-white-color);
+}
+
+.home-filter__content {
+    margin-right: 4px;
+}
+
+.home-filter__icon {
+    font-size: 18px;
 }
 
 /* User */
