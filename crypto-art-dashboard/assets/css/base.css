@@ -8,6 +8,7 @@
     --primary-color: #24252d;
     --sub-color: #1b1a21;
     --sub-color-2: #115cab;
+    --background-color: #292c38;
     --sub-text-color: #8b8c94;
     --text-white-color: #fff;
     --category-item-width: 140px;
@@ -30,7 +31,16 @@
     font-size: 16px;
 }
 
+.btn:hover,
 .btn--primary {
     background-color: var(--sub-color);
+    color: var(--text-white-color);
+}
+
+.space {
+    padding: 6px;
+}
+
+.analytics-icon {
     color: var(--text-white-color);
 }
