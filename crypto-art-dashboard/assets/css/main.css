@@ -157,11 +157,12 @@ body {
     list-style: none;
     transition: transform 0.1s linear;
     will-change: transform;
+    box-shadow: 0px 1px 20px 0 rgba(131, 131, 131, 0.1);
 }
 
 .home-product-item:hover {
     transform: translateY(-2px);
-    box-shadow: 0 1px 20px 0 rgba(209, 209, 209, 0.05);
+    box-shadow: 0px 1px 20px 0 rgba(0, 255, 213, 0.2);
 }
 
 .home-product-item__img {
@@ -223,3 +224,98 @@ body {
 .user {
     border-left: 2px solid #2e2f38;
 }
+
+.user-menu {
+    list-style: none;
+    justify-content: space-around;
+    display: inline-flex;
+    float: right;
+    width: 120px;
+    margin-right: 16px;
+}
+
+.user-menu::after {
+    clear: both;
+}
+
+.user-menu-item {
+    cursor: pointer;
+    padding: 0 4px;
+    width: 50px;
+}
+
+.user-avatar {
+    --img-size: 30px;
+    width: var(--img-size);
+    height: var(--img-size);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.user-menu-icon {
+    color: var(--text-white-color);
+    padding-left: 4px;
+}
+
+.user-menu-icon.fa-chevron-down {
+    font-size: 16px;
+}
+
+.user-menu-icon.fa-bell {
+    font-size: 30px;
+}
+
+/* balance */
+.balance {
+    width: 95%;
+    margin-left: 0px;
+    padding: 20px 12px 20px;
+    background-color: var(--background-color);
+    margin-top: 40px;
+    border-radius: 20px;
+    box-shadow: 0px 1px 30px 0 rgba(71, 71, 71, 0.2);
+}
+
+.balance-info {
+    display: block;
+}
+
+.balance-info-text {
+    color: var(--text-white-color);
+    font-weight: 600;
+    font-size: 16px;
+    padding-left: 4px;
+}
+
+.balance-info__card {
+    margin: 12px 6px 16px 5px;
+    padding: 12px 16px 12px;
+    width: 96%;
+    height: 100%;
+    border-radius: 12px;
+    background-image: linear-gradient(120deg, #5a3fd0, #cc4582);
+}
+
+.card-text {
+    color: #c4c4c4;
+    font-family: 400;
+    font-size: 8px;
+}
+
+.card-number {
+    font-size: 20px;
+    font-family: 900;
+    color: #fff;
+}
+
+.see-details-btn {
+    background-color: #373946;
+    border: 1px solid #9194a0;
+    width: 96%;
+    padding: 12px 0;
+    margin-left: 6px;
+}
+
+/*  */

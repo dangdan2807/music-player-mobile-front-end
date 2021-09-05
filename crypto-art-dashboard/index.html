@@ -11,7 +11,8 @@
         crossorigin="anonymous" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,600;0,700;1,900&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/grid.css">
@@ -69,7 +70,7 @@
                     </ul>
                 </div>
             </nav>
-            <div class="app__container col l-8">
+            <div class="app__container col l-7">
                 <div class="search-bar col l-12">
                     <div class="search-box col l-6">
                         <i class="search__icon fa fa-search"></i>
@@ -204,7 +205,49 @@
                     </div>
                 </div>
             </div>
-            <div class="user col l-2"></div>
+            <div class="user col l-3">
+                <div class="row">
+                    <div class="col c-12">
+                        <ul class="user-menu">
+                            <li class="user-menu-item">
+                                <i class="user-menu-icon far fa-bell"></i>
+                            </li>
+                            <li class="user-menu-item display-flex-center">
+                                <img class="user-avatar" src="./assets/img/avatar.jpg" alt="avatar">
+                                <i class="user-menu-icon fas fa-chevron-down"></i>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col c-12">
+                        <div class="balance col c-12">
+                            <div class="balance-info">
+                                <span class="balance-info-text">Total Balance</span>
+                                <div class="balance-info__card">
+                                    <span class="card-text card-balance">BALANCE</span> </br>
+                                    <span class="card-number card-cash">$ 9,098.70</span> </br>
+                                    </br>
+                                    <span class="card-text">PROFIT</span> </br>
+                                    <span class="card-number card-profit">$ 19,898.70</span> </br>
+                                </div>
+                            </div>
+                            <button class="btn btn--primary see-details-btn">See details</button>
+                        </div>
+                        <div class="recent-transactions col c-12">
+                            <p class="transactions-heading">Recent-transactions</p>
+                            <div class="transactions-content">
+                                <div class="transactions-item">
+                                    <i class="transactions-icon fab fa-bitcoin"></i>
+                                    <div class="transactions-info">
+                                        <span translate="transactions-name">Bitcoin</span>
+                                        <span translate="transactions-price">$250.00</span>
+                                        <span translate="transactions-code">BTC</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <script src="./assets/js/main.js"></script>
