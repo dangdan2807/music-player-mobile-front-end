@@ -121,7 +121,7 @@ body {
 }
 
 .search__input {
-    width: 90%;
+    width: 88%;
     background-color: var(--sub-color);
     outline: none;
     border: none;
@@ -190,6 +190,7 @@ body {
     overflow: hidden;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 1;
+    font-size: 12px;
     /* text-overflow: ellipsis;
     white-space: nowrap; */
 }
@@ -318,4 +319,64 @@ body {
     margin-left: 6px;
 }
 
-/*  */
+/* recent transactions */
+.recent-transactions {
+    margin-top: 40px;
+    padding: 20px 12px 20px;
+    background-color: var(--background-color);
+    width: 95%;
+    margin-left: 0px;
+    border-radius: 20px;
+}
+
+.transactions-heading {
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 4px;
+    color: var(--text-white-color);
+}
+
+.transactions-content {
+    margin-top: 10px;
+    height: 136px;
+}
+
+.transactions-item {
+    padding: 8px 4px;
+    /* height: 40px; */
+}
+
+.transactions-item__icon {
+    color: var(--text-white-color);
+    font-size: 20px;
+    float: left;
+}
+
+.transactions-item__info {
+    width: 190px;
+    color: var(--text-white-color);
+}
+
+.transactions-item__body {
+    display: block;
+}
+
+.transactions-item__name {
+    font-weight: 500;
+    padding-left: 8px;
+}
+
+.transactions-item__price {
+    font-weight: 500;
+    float: right;
+}
+
+.transactions-item__code {
+    color: #a8a8a8;
+    font-size: 12px;
+    padding-left: 8px;
+}
+
+.transaction-see-details-btn {
+    margin-top: 20px;
+}
